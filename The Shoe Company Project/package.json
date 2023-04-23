@@ -1,0 +1,16 @@
+{
+  "name": "the-shoe-company-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": " tailwindcss -i ./input.css -o ./output.css --watch",
+    "tailwind-minify": " tailwindcss -i ./input.css -o ./output.css --watch --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
